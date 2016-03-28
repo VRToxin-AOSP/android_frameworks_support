@@ -14,7 +14,7 @@ LOCAL_C_INCLUDES += \
 	frameworks/rs/cpp \
 	frameworks/rs/driver
 
-LOCAL_CFLAGS += -Wno-unused-parameter -U_FORTIFY_SOURCE
+LOCAL_CFLAGS += -Wno-unused-parameter
 LOCAL_CFLAGS += -DRS_COMPATIBILITY_LIB -std=c++11
 
 LOCAL_MODULE:= libRSSupportIO
